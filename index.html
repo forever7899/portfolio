@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="./js/main.js"></script>
+    <title>진영원 포트폴리오</title>
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <!-- <h6> 위로</h6>
+            <h6> 아래로</h6> -->
+            <div class="play">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <div class="bar4"></div>
+            </div>
+        </nav>
+        <section class="content1">
+            <div class="top">
+                <div class="girl"><img src="./images/girl.svg" alt="girl"></div>
+                <div class="hello"></div>
+                <div class="cat_tree"></div>
+            </div>
+            <div class="bottom">
+                <div class="clock">
+                    <div class="hour">
+                        <div id="hr" class="hr"></div>
+                    </div>
+                    <div class="min">
+                        <div id="mn" class="mn"></div>
+                    </div>
+                    <div class="sec">
+                        <div id="sc" class="sc"></div>
+                    </div>
+                    <script src="./js/clock.js"></script>
+                </div> 
+                <div class="bird"></div> 
+            </div>
+        </section>
+        <section class="content2">
+            <div id="hole">
+                <div class="horizon"></div>
+                <div class="hole_bg hole_bg_m"> </div>
+                <div class="hole_bird">
+                    <img src="./images/hole_bird.svg" alt="bird">
+                </div>
+                <div class="hole_cat">
+                    <img src="./images/hole_cat.svg" alt="cat">
+                </div>
+                <div class="hole_leg">
+                    <img src="./images/hole_leg.svg" alt="leg">
+                </div>
+            </div>
+            <ul>
+                <li class="mx1"><img src="./images/mtrx1.svg" alt="움직이는숫자"></li>
+                <li class="mx2"><img src="./images/mtrx2.svg" alt="움직이는숫자"></li>
+                <li class="mx3"><img src="./images/mtrx1.svg" alt="움직이는숫자"></li>
+                <li class="mx4"><img src="./images/mtrx2.svg" alt="움직이는숫자"></li>
+                <li class="mx5"><img src="./images/mtrx1.svg" alt="움직이는숫자"></li>
+                <li class="mx6"><img src="./images/mtrx2.svg" alt="움직이는숫자"></li>
+                <li class="mx7"><img src="./images/mtrx1.svg" alt="움직이는숫자"></li>
+                <li class="mx8"><img src="./images/mtrx2.svg" alt="움직이는숫자"></li>
+                <li class="mx9"><img src="./images/mtrx1.svg" alt="움직이는숫자"></li>
+                <li class="mx10"><img src="./images/mtrx2.svg" alt="움직이는숫자"></li>
+                <li class="mx11"><img src="./images/mtrx1.svg" alt="움직이는숫자"></li>
+                <li class="mx12"><img src="./images/mtrx2.svg" alt="움직이는숫자"></li>
+            </ul>
+        </section>
+        <div class="floor"></div>
+
+        <section class="content3">
+
+            <div class="tree">
+                <!-- <img src="./images/tree_wt.svg" alt="야자나무"> -->
+                <div class="swing">
+
+                </div>
+            </div>
+      
+            <div class="fly">
+                <img src="./images/fly.svg" alt="떠있는캐릭터들">
+            </div>
+            <div class="intro">
+                <!-- <h4>ABOUT ME</h4> -->
+                <div class="board">
+                    <h5>Jin young won</h5>
+                    <p>2000.03 ~ 2004.02 산업디자인학과 전공
+                        2022.02 ~ 07 웹퍼블리셔 / 프론트엔드 과정 수료
+                    </p>
+
+                    <h5>EXPERIENCE</h5>
+                    <p>웹디자인(반응형, scss, javascript)
+                        편집디자인 / 상세페이지 디자인
+                        BI디자인 / 광고디자인 / 상업 광고촬영
+                    </p>
+                    
+                    <h5>CONTACT</h5>
+                    <p> phone : 010-2962-8762
+                        mail : forever7899@naver.com 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="content4">
+            <div class="web">
+                <h4>WEB DESIGN</h4>
+                <div class="list_area">
+                    <div class="list">
+                        <a href="./portfolio-royalpalace/index.html" target="_blank">
+                            <img src="./images/pp_royal.png" alt="">
+                        </a>
+
+                        <div class="title"> 문화재청 경복궁</div>
+
+                        <div class="buttons">
+                            <a href="#none" onclick="view(event)">가이드</a> 
+                            <a href="https://github.com/KD6-3-7/portfolio-royalpalace.git" target="_blank">GIT</a>
+                            <a href="./portfolio-royalpalace/index.html" target="_blank">바로가기</a>
+                        </div>
+                        <div class="modal">
+                            <div class="inner">
+                                <img src="./sub/images/pp_royal.png" alt="경복궁 가이드">
+                            </div>
+                            <div class="close" onclick="closeEvent(event)">
+                                <img src="./images/close.svg" alt="닫기버튼">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <a href="./eveslab/index.html" target="_blank" onclick="view(event)"><img src="./images/pp_eveslab.png" alt="홈페이지썸네일"></a>
+
+                        <div class="title"> 코스메틱 쇼핑몰</div>
+
+                        <div class="buttons">
+                            <a href="#none"  onclick="view(event)">가이드</a> 
+                            <a href="https://github.com/forever7899/evs-s-lab.git" target="_blank">GIT</a>
+                            <a href="./eveslab/index.html" target="_blank">바로가기</a>
+                        </div>
+
+                        <div class="modal">
+                            <div class="inner">
+                                <img src="./sub/images/pp_eveslab.jpg" alt="이브즈랩 가이드">
+                            </div>
+                            <div class="close" onclick="closeEvent(event)">
+                                <img src="./images/close.svg" alt="닫기버튼">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <a href="./fashion/index.html" target="_blank"><img src="./images/pp_musinsa.png" alt="홈페이지썸네일"></a>
+
+                        <div class="title"> 무신사 / 패션매거진</div>
+
+                        <div class="buttons">
+                            <a href="#none"  onclick="view(event)">가이드</a> 
+                            <a href="https://github.com/forever7899/fashion.git" target="_blank">GIT</a>
+                            <a href="./fashion/index.html" target="_blank">바로가기</a>
+                        </div>
+                        <div class="modal">
+                            <div class="inner">
+                                <img src="./sub/images/pp_fashion.jpg" alt="포트폴리오 가이드">
+                            </div>
+                            <div class="close" onclick="closeEvent(event)">
+                                <img src="./images/close.svg" alt="닫기버튼">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <a href="./index.html" target="_blank"><img src="./images/pp_portfolio.png" alt="홈페이지썸네일"></a>
+                        <div class="title"> 포트폴리오</div>
+
+                        <div class="buttons">
+                            <a href="#none"  onclick="view(event)">가이드</a>
+                            <a href="#none">GIT</a>
+                            <a href="./index.html" target="_blank">바로가기</a>
+                        </div>
+                        <div class="modal">
+                            <div class="inner">
+                                <img src="./sub/images/pp_pp.png" alt="포트폴리오 가이드">
+                            </div>
+                            <div class="close" onclick="closeEvent(event)">
+                                <img src="./images/close.svg" alt="닫기버튼">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="content5">
+            <div class="stair">
+                <div class="cat_door"></div>
+            </div>
+
+            <div class="graphic">
+                <h4>REACT-APP</h4>
+                <div class="list_area">
+                    <div class="list">
+                        <a href="./todo/index.html" target="_blank">
+                            <img src="./images/todo.jpg" alt="todo">
+                        </a>
+                        <div class="title"> 할일 앱</div>
+                    </div>
+
+                    <div class="list">
+                        <a href="./news/index.html" target="_blank">
+                            <img src="./images/news.jpg" alt="todo">
+                        </a>
+                        <div class="title"> 뉴스 앱</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="content6">
+            <div class="web">
+                <h4>상세페이지</h4>
+                <div class="list_area">
+                    <div class="list">
+                        <a href="#none" onclick="view(event)">
+                            <img src="./images/detail/sn568.jpg" alt="sn568">
+                        </a>
+                        <div class="modal">
+                            <div class="inner">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn568/pc/sn568_pc1_1.jpg"/>
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn568/pc/sn568_pc1_2.jpg"/>
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn568/pc/sn568_pc2_1.jpg"/>
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn568/pc/sn568_pc_gif.gif"/>
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn568/pc/sn568_pc2_2.jpg"/>
+                            </div>
+                            <div class="close" onclick="closeEvent(event)">
+                                <img src="./images/close.svg" alt="닫기버튼">
+                            </div>
+                        </div>
+                        <div class="title"> 여성 뮬</div>
+
+                        <div class="buttons">
+                            <span>기획</span> 
+                            <span>촬영</span>
+                            <span>디자인</span>
+                        </div>
+
+                    </div>
+
+                    <div class="list">
+                        <a href="#none" onclick="view(event)">
+                            <img src="./images/detail/sn275.jpg" alt="">
+                        </a>
+                        <div class="modal">
+                            <div class="inner">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn275/pc/sn275_pc1.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn275/pc/sn275_pc2.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn275/pc/sn275_pc3.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn275/pc/sn275_pc4.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn275/pc/sn275_pc5.jpg">
+                            </div>
+                            <div class="close" onclick="closeEvent(event)">
+                                <img src="./images/close.svg" alt="닫기버튼">
+                            </div>
+                        </div>
+                        <div class="title"> 여성샌들</div>
+
+                        <div class="buttons">
+                            <span>기획</span> 
+                            <span>촬영</span>
+                            <span>디자인</span>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <a href="#none" onclick="view(event)">
+                            <img src="./images/detail/sn602.jpg" alt="">
+                        </a>
+                        <div class="modal">
+                            <div class="inner">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn602/pc/sn602_pc_01.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn602/pc/sn602_pc_02.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn602/pc/sn602_pc_03.gif">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn602/pc/sn602_pc_04.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn602/pc/sn602_pc_05.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn602/pc/sn602_pc_06.jpg">
+                            </div>
+                            <div class="close" onclick="closeEvent(event)">
+                                <img src="./images/close.svg" alt="닫기버튼">
+                            </div>
+                        </div>
+
+                        <div class="title"> 슬리퍼</div>
+
+                        <div class="buttons">
+                            <span>기획</span> 
+                            <span>촬영</span>
+                            <span>디자인</span>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <a href="#none" onclick="view(event)">
+                            <img src="./images/detail/sn566.jpg" alt="">
+                        </a>
+                        <div class="modal">
+                            <div class="inner">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn566/pc/sn566_intro_pc1.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn566/pc/sn566_intro_pc2.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn566/pc/sn566_gif_pc.gif">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn566/pc/sn566_intro_pc3.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn566/pc/sn566_bk_pc.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn566/pc/sn566_gn_pc.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn566/pc/sn566_yw_pc.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn566/pc/sn566_wt_pc.jpg">
+                            </div>
+                            <div class="close" onclick="closeEvent(event)">
+                                <img src="./images/close.svg" alt="닫기버튼">
+                            </div>
+                        </div>
+
+                        <div class="title"> 스니커즈</div>
+
+                        <div class="buttons">
+                            <span>기획</span> 
+                            <span>촬영</span>
+                            <span>디자인</span>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <a href="#none" onclick="view(event)">
+                            <img src="./images/detail/sn572.jpg" alt="">
+                        </a>
+                        <div class="modal">
+                            <div class="inner">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_intro_pc1.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_intro_pc2.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_intro_pc3.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_intro_pc4.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_intro_pc5.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_intro_pc6.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_bk_pc1.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_bk_pc2.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_bk_pc3.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_bk_pc4.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_iv_pc1.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_iv_pc2.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_iv_pc3.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_iv_pc4.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_lp_pc1.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_lp_pc2.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_lp_pc3.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_lp_pc4.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_nv_pc1.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_nv_pc2.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_nv_pc3.jpg">
+                                    <img src="http://paperplanes.cafe24.com/snrd/detail/sn572/pc/sn572_nv_pc4.jpg">
+                            </div>
+                            <div class="close" onclick="closeEvent(event)">
+                                <img src="./images/close.svg" alt="닫기버튼">
+                            </div>
+                        </div>
+                        <div class="title"> 스니커즈</div>
+
+                        <div class="buttons">
+                            <span>기획</span> 
+                            <span>촬영</span>
+                            <span>디자인</span>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <a href="#none" onclick="view(event)">
+                            <img src="./images/detail/tank.jpg" alt="">
+                        </a>
+                        <div class="modal">
+                            <div class="inner">
+                                <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_01.jpg">
+                              <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_02.jpg">
+                              <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_03.jpg">
+                              <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_04.gif">
+                              <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_05.jpg">
+                              <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_06.jpg">
+                              <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_07.jpg">
+                              <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_08.jpg">
+                              <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_09.gif">
+                              <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_10.jpg">
+                              <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_11.jpg">
+                              <img src="http://paperplanes2.cafe24.com/pp/detail/tank/pc/tank_pc_12.jpg">
+                        
+                            </div>
+                            <div class="close" onclick="closeEvent(event)">
+                                <img src="./images/close.svg" alt="닫기버튼">
+                            </div>
+                        </div>
+                        <div class="title"> 주방화</div>
+
+                        <div class="buttons">
+                            <span>기획</span> 
+                            <span>촬영</span>
+                            <span>디자인</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="cat_book">
+            </div>
+        </section>
+
+        <section class="content7">
+            <div class="tools">
+                <h5>TOOLS</h5>
+                <img src="./images/tools.svg" alt="">
+            </div>
+
+            <div class="skills">
+                <h5>SKILLS</h5>
+                <div>
+                    <div class="skill"> html5 
+                        <div class="proficiency_area">
+                            <div class="proficiency html5"></div>
+                        </div> 
+                    </div>
+                    <div class="skill"> scss 
+                        <div class="proficiency_area">
+                            <div class="proficiency scss"></div>
+                        </div> 
+                    </div>
+                    <div class="skill"> javascript 
+                        <div class="proficiency_area">
+                            <div class="proficiency javascript"></div>
+                        </div> 
+                    </div>
+                    <div class="skill"> jquery 
+                        <div class="proficiency_area">
+                            <div class="proficiency jquery"></div>
+                        </div> 
+                    </div>
+                    <div class="skill"> react
+                        <div class="proficiency_area">
+                            <div class="proficiency react"></div>
+                        </div> 
+                    </div>
+                    <div class="skill"> git
+                        <div class="proficiency_area">
+                            <div class="proficiency git"></div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <ul class="book">
+            </ul>
+
+            <p>
+                © COPYRIGHT 2022. 진영원 ALL RIGHTS RESERVED.
+            </p>
+        </section>
+    </div>
+    
+</body>
+</html>

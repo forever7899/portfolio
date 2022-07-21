@@ -1,0 +1,36 @@
+@mixin full-bg ($img-name, $position) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/main_bg/#{$img-name}.jpg) no-repeat $position /cover;
+}
+
+@mixin scroll-bg ($img-name, $position) {
+    background: url(../images/#{$img-name}.jpg) no-repeat $position /cover;
+}
+
+@mixin mobile {
+    @media (max-width:767px){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width:768px) and (max-width: 1023px){
+        @content;
+    }
+}
+
+@mixin pc {
+    @media (min-width:1024px) and (max-width: 1920px){
+        @content;
+    }
+}
+
+@mixin wide {
+    @media (min-width:1921px){
+        @content;
+    }
+}
